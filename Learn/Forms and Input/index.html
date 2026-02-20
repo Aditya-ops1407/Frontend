@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+
+<body>
+    <!-- Form tag is used to create form -->
+    <form action="post" align="center">
+        <div>
+
+            <!-- Label tag is used to label an element. It takes id attribute of your element for identification -->
+            <label for="username">Enter your username</label>
+
+            <!-- Input tag is used to take input. Default is text -->
+            <input type="text" id="username" name="username" placeholder="abc">
+        </div>
+        <br>
+        <label for="password">Enter your password</label>
+        <input type="password" id="password" name="password" placeholder="***">
+
+        <div>
+            <br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label> <!-- Label is important for ease of access -->
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+
+            <!-- Radio buttons with common names will only allow one of them to be selected at a time-->
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">Subscribe to newsletter</label>
+        </div>
+
+        <div>
+            <br>
+            <label for="textarea">Enter your comment...</label> <br>
+            <textarea name="textarea" id="textarea" rows="10" cols="50"></textarea>
+        </div>
+
+        <div>
+            <label for="fruits">Select Favourite Fruit</label> <br>
+            <select name="fruits" id="fruits">
+                <option value="banana">Banana</option>
+                <option value="apple">Apple</option>
+                <option value="cherry">Cherry</option>
+
+            </select>
+        </div>
+    </form>
+</body>
+
+</html>
