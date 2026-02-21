@@ -1,0 +1,19 @@
+/* Use . to target a class in css */
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.large{
+    font-size: large;
+}
+
+/* Use # to target an ID in css */
+
+#firstdiv{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
