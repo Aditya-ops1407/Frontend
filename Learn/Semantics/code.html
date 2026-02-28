@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code</title>
+</head>
+
+<body>
+    <header>
+        <h1 align=center><u>This is how you write a multiline code:</u></h1>
+    </header>
+    <main>
+    <pre>
+        <code>
+            import os
+
+            #Write a file
+            st = ("I am a python developer\nI want to be a programmer\nI am getting better everyday")
+            f = open("myfile.txt","w") # "w" to specify write mode
+            f.write(st)
+            f.close()
+            
+            #Read a File
+            f = open("myfile.txt")
+            data = f.read()
+            print(data)
+            f.close()
+            
+            #Readlines [Gives Output in form of list]
+            f = open("myfile.txt")
+            lines = f.readlines()
+            print(lines , type(lines))
+            f.close()
+    
+        </code>
+    </pre>
+    </main>
+    <footer>
+        <p align = center>Copyright 2026</p>
+    </footer>
+</body>
+
+</html>
